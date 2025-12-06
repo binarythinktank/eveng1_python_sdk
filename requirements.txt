@@ -2,4 +2,4 @@ bleak>=0.21.1
 rich>=13.7.0
 asyncio>=3.4.3 
 setuptools>=65.5.1 
-pywin32>=305 # for PowerPoint teleprompter example only (on windows)
+pywin32>=305; platform_system == "Windows" # for PowerPoint teleprompter example only (on windows)
